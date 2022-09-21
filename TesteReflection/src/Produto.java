@@ -1,3 +1,4 @@
+@AnotacaoDeClasse(name="Produto do banco de dados")
 public class Produto {
 
     int id;
