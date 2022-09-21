@@ -1,11 +1,12 @@
 @AnotacaoDeClasse(name="Produto do banco de dados")
 public class Produto {
 
-    int id;
-    public String descricao;
+    @AnotacaoDeAtributo(nome="identificador", tipo="inteiro")
+    private int id;
+    @AnotacaoDeAtributo(nome="descricao", tipo="texto")
+    private String descricao;
+    @AnotacaoDeAtributo(nome="valor", tipo="monetario")
     private double preco;
-
-    protected int disponivel;
 
     public int getId() {
         return id;
