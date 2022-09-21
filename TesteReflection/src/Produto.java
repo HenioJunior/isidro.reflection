@@ -1,8 +1,10 @@
 public class Produto {
 
-    private int id;
-    private String descricao;
+    int id;
+    public String descricao;
     private double preco;
+
+    protected int disponivel;
 
     public int getId() {
         return id;
