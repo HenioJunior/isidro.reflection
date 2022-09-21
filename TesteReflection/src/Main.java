@@ -5,7 +5,5 @@ public class Main {
         Analyzer analyzer = new Analyzer();
 
         analyzer.analyze(produto);
-        System.out.println(analyzer);
-
     }
 }
